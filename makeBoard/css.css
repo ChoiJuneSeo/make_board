@@ -1,0 +1,17 @@
+@import url(main_style.css);
+@import url(post_style.css);
+@import url(media.css);
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
