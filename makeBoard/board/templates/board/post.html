@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static '/css/post.css' %}">
+</head>
+<body>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>글 작성</strong>
+            <p>글을 쓰는 페이지입니다.</p>
+        </div>
+        <div class="board_post_wrap">
+            <div class="board_post">
+                <div class="post_title">
+                    <form action="/create/1/" method="post" class="post">
+                        <p>제목: <input type="text" name="title" class="text"></p>
+                        <p><textarea name="content" class="textarea"></textarea></p>
+                        <p><input type="submit" value="제출" class="bt_b"> <a href="/"><button class="bt_w">취소</button></a></p>
+                    </form>
+                    
+                </div>
+                <div class="post_info"></div>
+                <div class="post_cont"></div>
+            </div>
+            <div class="bt_wrap">
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

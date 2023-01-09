@@ -1,0 +1,150 @@
+*{
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.header{
+    margin: 100px auto;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 1200px;
+    height: 100px;
+    border-bottom: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.header strong{
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+    
+}
+.header p{
+    margin-top: 1px;
+    font-size: 1.2rem;
+}
+.nav{
+    border: 1px solid red;
+    width: 1200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px auto;
+}
+.main{
+    border: 1px solid;
+    width: 85%;
+    height: 80%;
+    flex-grow: 1;
+}
+
+.list{
+    width: 99%;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    
+    
+}
+.list div {
+    border: 1px solid;
+    height: 85%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list .title {
+    flex-grow: 6;
+}
+.body{
+    border: 1px solid rgb(25, 0, 255);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.bt{
+    background-color: white;
+    border: 1px solid;
+    transition: 0.1s;
+    width: 32px;
+    height: 32px;
+}
+.bt:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    cursor: pointer;
+}
+.bt:active{
+    background-color: black;
+    transform: scale(1.1);
+}
+.bottom{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.enroll{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 32px;
+
+}
+.enroll:hover{   
+    cursor: pointer;
+}
+.extra{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 32px;
+}
+.extra:hover{
+    cursor: pointer;
+}
+.aside{
+    border: none;
+    width: 15%;
+    height: 400px;
+    background-color: rgb(242, 255, 196);
+
+}
+#title{
+    width: 400px;
+    height: 20px;
+    border: 1px solid;
+}
+
+#제출{
+    width: 100px;
+    height: 30px;
+}
+
+.info{
+    border: 1px solid;
+    width: 99%;
+    height: fit-content;
+}
+.info .title{
+    display: flex;
+    justify-content: left;
+}
+.to_create{
+    color: black;
+    text-decoration: none;
+}
